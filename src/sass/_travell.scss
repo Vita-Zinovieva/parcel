@@ -1,0 +1,70 @@
+/* .travell, 
+.travell-guide {
+ position: relative; 
+} */
+.travell_container,
+.travell-guide_container{
+  margin: 5% auto 5% auto; 
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  height: auto;
+}
+.travell-guide_container{
+  margin: 5% auto 5% auto; 
+}
+ 
+
+.travell_block,
+.travell-guide_block{
+  max-width: 50%;
+  padding: 10% 10% 0 0;
+}
+.travell_block {
+  margin-left: 40px;
+  
+}
+.travell-guide_block{
+  margin-left: 0px;
+ 
+}
+
+.right-img_ibh{
+  float:right;
+  width: 100%;
+}
+.left-img {
+  float: left;
+  width: 100%;
+}
+.travell_title {
+  font-family: Playfair Display;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.38;
+  padding-bottom: 5% ;
+  color: #000000;
+}
+.travell_text {
+  font-family: Mull;
+  font-size: 17px;
+  font-weight: 300;
+  line-height: 1.76;
+  color: #7D7987;
+  padding-bottom: 10%;
+}
+.travell_button {
+  width: 150px;
+  height: 44px;
+  color: #FFFFFF;
+  background-color: #FB8F1D;
+  border-radius: 8px;
+  
+  &:hover, focus {
+    color:#FB8F1D;
+    background-color: #FFFFFF;
+    border: 1px solid #FB8F1D;
+   }
+}
+
+ 

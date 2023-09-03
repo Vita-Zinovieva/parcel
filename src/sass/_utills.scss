@@ -1,0 +1,45 @@
+*, 
+*::after,
+*::before {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  box-sizing: 0;
+}
+a {
+  text-decoration: none;
+  }
+li, ul, ol{
+  list-style: none;
+}
+img {
+  vertical-align: top;
+} 
+h1,h2,h3,h4 {
+  font-weight: inherit;
+  font-size: inherit;
+} 
+body{
+  height: 100%;
+  line-height: 1;
+  color: #4A4C53;
+
+}
+.wraper {
+  min-height: 100%;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+._container {
+max-width: 1415px;
+box-sizing: content-box;
+}
+/* .main {
+  flex: 1 1 auto;
+} */
+svg path {
+  stroke:inherit;
+  stroke-width:inherit;
+  fill:inherit;
+  }

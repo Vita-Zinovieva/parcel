@@ -1,0 +1,63 @@
+.holiday {
+  height: 100%;
+  width: auto;
+  
+}
+.holiday_container{
+  height: auto;
+  margin: 5% auto 5% auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+.holiday_menu-title{
+  padding: 10% 10% 0 0;
+  width: 50%;
+ 
+}
+.holiday_title {
+  color: #202336;
+  font-size: 64px;
+  font-weight: 700;
+  font-family: Playfair Display;
+  line-height: 1.25;
+  margin-bottom: 18%;
+
+}
+
+.holiday_text {
+  color: #202336;
+  font-size: 22px;
+  font-family: Inter;
+  line-height: 1.18; 
+  font-weight: 600;
+  
+}
+.right-img {
+  float: right;
+  height: auto;
+  width: 50%;
+ 
+}
+.holiday_button {
+  flex-wrap: wrap;
+  display: flex;
+  width: 440px;
+  height: 140px;
+  padding-bottom: 45px;
+  justify-content:space-between;
+  align-items: center;
+  margin-right: 70%;
+}
+.holiday-button {
+  width: 150px;
+  height: 44px;
+  color: #FFFFFF;
+  background-color: #FB8F1D;
+  border-radius: 8px;
+    
+  &:hover, focus {
+    color:#FB8F1D;
+    background-color: #FFFFFF;
+    border: 1px solid #FB8F1D;
+   }
+}

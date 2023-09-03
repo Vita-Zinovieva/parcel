@@ -3,12 +3,277 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Page title</title>
     <link rel="stylesheet" href="./sass/index.scss" />
-    <script type="module" src="./index.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Mulish:wght@300&family=Playfair+Display:wght@700&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    
   </head>
   <body>
-    <!-- ❗️❗️❗️ Add partials like so for every page -->
-    <include src="./partials/example.html"></include>
+  <div class="wraper">
+      <header class="header">
+        <div class="header_container _container">
+          <div class="header_logo _logo">
+            <img src="./images/logo-group.png" alt="Логотип коло" height="30" width="30"/>
+          </div>
+          <div class="header_menu _menu">
+            <ul class="menu_list">
+              <li class="menu_item">
+                <a href="" class="menu_link">Home</a>
+              </li>
+              <li class="menu_item">
+                <a href="" class="menu_link">Destinations</a>
+              </li>
+              <li class="menu_item">
+                <a href="" class="menu_link">About</a>
+              </li>
+              <li class="menu_item">
+                <a href="" class="menu_link">Partner</a>
+              </li>
+            </ul>
+            <button class="menu_button _button">Login</button>
+            <button class="menu_button _button">Register</button>
+          </div>
+        </div>
+      </header>
+      <main class="main">
+        <div class="holiday">
+          <div class="holiday_container _container">
+            <div class="holiday_menu-title">
+              <h1 class="holiday_title">Explore and Travel</h1>
+              <p class="holiday_text">Holiday finder</p>
+            </div>
+            <img src="./images/thousand-01 1.jpg" alt="" style="float:right" class="right-img"/>
+            <div class="holiday_button">
+              <button class="menu_button-action _button">Location</button>
+              <button class="menu_button-action _button">Grade</button>
+              <button class="menu_button-action _button">Activity</button>
+              <button class="menu_button-action _button">Date</button>
+            </div>
+            <button class=" holiday-button">Explore</button> 
+          </div>
+        </div>
+
+        <div class="travell">
+          <div class="travell_container _container">
+            <img src="./images/thousand-02 1.jpg" alt="" style="float:left" class="left-img"/>
+            <div class="travell_block">
+              <h2 class="travell_title">A new way to explore the world </h2>
+              <p class="travell_text">For decades travellers have reached for Lonely Planet books when looking to plan and execute their perfect 
+              trip, but now, they can also let Lonely Planet Experiences lead the way</p>
+              <button class="travell_button">Learn more</button>
+            </div>
+          </div>
+        </div> 
+
+       <div class="distenition">
+          <div class="distinition_container _container">
+            <div class="distenition_page">
+              <h2 class="distenition_title">Featured destinations</h2>
+              <button class="distenition_button">View all ></button>
+            </div>
+            <ul class="distenition_list _exemple">
+              <li class="distenition_item">
+                <img src="./images/image 4.jpg" alt="ocean" class="foto"/>
+                <span class="distenition_box _box">
+                  <h3 class="box_description">Raja Ampat</h3>
+                  <p class="box_text">Indonesia</p>
+                </span> 
+              </li>
+              <li class="distenition_item">
+                <img src="./images/Screen Shot 2020-02-14 at 4.36 1.jpg" alt="mountain" class="foto"/>
+                <span class="distenition_box _box">
+                  <h3 class="box_description">Fanjingshan</h3>
+                  <p class="box_text">China</p>
+                </span> 
+              </li>
+              <li class="distenition_item">
+                <img src="./images/Screen Shot 2020-02-15 at 11.04 1.jpg" alt="house" class="foto"/>
+                <span class="distenition_box _box">
+                  <h3 class="box_description">Vevey</h3>
+                  <p class="box_text">Switzerland</p>
+                </span> 
+              </li>
+              <li class="distenition_item">
+                <img src="./images/Screen Shot 2020-02-15 at 11.10 1.jpg" alt="river" class="foto"/>
+                <span class="distenition_box _box">
+                  <h3 class="box_description">Skadar</h3>
+                  <p class="box_text">Montenegro</p>
+                </span> 
+              </li>
+            </ul>
+          </div>  
+        </div>
+
+        <div class="travell-guide">
+          <div class="travell-guide_container _container">
+            <div class="travell-guide_block">
+              <h2 class="travell_title">Guides by Thousand Sunny</h2>
+              <p class="travell_text">Packed with tips and advice from our on-the-ground experts, our city guides app (iOS and Android) is the ultimate resource before and during a trip.</p>
+              <button class="travell_button">Download</button>
+            </div>
+            <img src="./images/thousand-03.jpg" alt="" style="float:right" class="right-img_ibh"/>
+          </div>
+        </div> 
+
+        <div class="client">
+          <div class="client_conteiner _container">
+            <div class="client_block">
+              <h2 class="travell_title">Testimonials</h2>
+                <ul class="client_boxes">
+                  <li class="client_box _box">
+                    <img src="images/star-empty.svg" class="icon-star">
+                  </li>
+                  <li class="client_box _box">
+                    <img src="images/star-empty.svg" class="icon-star"><style>
+                      .fill {fill: #fff}
+                     .icon-star:hover .fill {fill:#e49116}
+                   </style>
+                  </li>
+                  <li class="client_box _box">
+                    <img src="images/star-empty.svg" class="icon-star">
+                  </li>
+                  <li class="client_box _box">
+                    <img src="images/star-empty.svg" class="icon-star">
+                  </li>
+                  <li class="client_box _box">
+                    <img src="images/star-empty.svg" class="icon-star">
+                  </li>
+                </ul>
+                <p class="client_text">“Quisque in lacus a urna fermentum euismod. Integer mi nibh, dapibus ac scelerisque eu, facilisis quis purus. Morbi blandit sit amet turpis nec”</p>
+            </div>
+
+            <div class="client_page">
+              <img src="./images/image 6.jpg" alt="man" class="foto"/>
+              <span class="client_name">
+                <p class="client_title">Edward Newgate</p>
+                <p class="client_text">Founder Circle</p> 
+              </span>   
+            </div>
+
+          </div>
+        </div>
+        <div class="trending">
+          <div class="trending_container _container">
+            <div class="trending_page">
+              <h2 class="trending_title">Trending stories</h2>
+              <button class="trending_button">View all ></button>
+            </div>
+            <ul class="trending_list _exemple">
+              <li class="trending_item">
+                <div class="trending_content">
+                  <img src="./images/image 12.jpg" alt="ocean" class="trending_foto"/>
+                  <span class="trending_overlay">
+                    <h3 class="box_des">The many benefits of  
+                      taking a healing holiday</h3>
+                    <p class="box_text">‘Helaing holidays’ are on the rise 
+                      tohelp maximise your health and happines...</p>
+                  </span>
+                </div>
+                <button class="trending-btn">Read more</button>
+              </li>
+              <li class="trending_item">
+                <div class="trending_content">
+                  <img src="./images/image 13.jpg" alt="ocean" class="trending_foto"/>
+                  <span class="trending_overlay">
+                    <h3 class="box_des">The best Kyoto restaurant
+                      to try Japanese food</h3>
+                    <p class="box_text">From tofu to teahouses, here’s our guide to Kyoto’s best restaurants
+                      to visit...</p>
+                  </span>
+                </div>
+                <button class="trending-btn">Read more</button>
+              </li>
+              <li class="trending_item">
+                <div class="trending_content">
+                  <img src="./images/image 14.jpg" alt="ocean" class="trending_foto" />
+                  <span class="trending_overlay">
+                    <h3 class="box_des">Skip Chichen Itza and head
+                      to this remote Yucatan</h3>
+                    <p class="box_text">It’s remote and challenging to get,
+                      but braving the jungle and exploring
+                      these ruins without the...</p>
+                  </span>
+                </div>
+                <button class="trending-btn">Read more</button>
+              </li>
+              <li class="trending_item">
+                <div class="trending_content">
+                  <img src="./images/image 15.jpg" alt="ocean" class="trending_foto" />
+                  <span class="trending_overlay">
+                    <h3 class="box_des">Surf’s up at these beginner
+                      spots around the world</h3>
+                    <p class="box_text">If learning to surf has in on your to-
+                      do list for a while, the good news
+                      is: it’s never too late...</p>
+                  </span>
+                </div>
+                <button class="trending-btn">Read more</button>
+              </li>
+            </ul>
+          </div>  
+        </div> 
+      </main>
+      <footer class="footer">
+        <div class="footer_container">
+          <div class="footer_list">
+            <div class="footer-adress">
+
+              <div class="footer_logo _logo">
+                <img src="./images/logo-group.png" alt="Логотип коло" height="30" width="30"/>
+              </div>
+
+              <p class="footer-adress_text">Plan and book your perfect trip with expert advice, travel tips destination information from us</p>
+              <p class="footer-adress_adress">©2020 Thousand Sunny. All rights reserved</p>
+            </div>
+
+            <div class="alldist">
+              <h3 class="footer_title">Destinations</h3>
+              <p class="footer_text">Africa
+                Antarctica
+                Asia
+                Europe
+                America</p>
+            </div>
+
+            <div class="shop">
+              <h3 class="footer_title">Shop</h3>
+              <p class="footer_text">Destination Guides
+                Pictorial & Gifts
+                Special Offers
+                Delivery Times
+                FAQs</p>
+            </div>
+
+            <div class="interests">
+              <h3 class="footer_title">Interests</h3>
+              <p class="footer_text">Adventure Travel
+                Art And Culture
+                Wildlife And Nature
+                Family Holidays
+                Food And Drink</p>
+            </div>
+
+            <div class= "social">
+              <ul class="social_link">
+                <li class="social_item">
+                  <a href=""><img src="images/facebook.svg" alt="Логотип facebook" style="width: 95%; height: 95%;"></a> 
+                </li>
+                <li class="social_item">
+                  <a href=""><img src="images/twitter.svg" alt="Логотип twitter" style="width: 95%; height: 95%;"></a> 
+                </li>
+                <li class="social_item">
+                  <a href=""><img src="images/linkedin2.svg" alt="Логотип linkedin2" style="width: 95%; height: 95%;"></a> 
+                </li>
+                <li class="social_item">
+                  <a href=""><img src="images/location.svg" alt="Логотип location" style="width: 95%; height: 95%;"></a> 
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </footer> 
+  
+    <script type="module" src="./index.js"></script>  
   </body>
 </html>
