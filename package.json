@@ -1,21 +1,21 @@
 {
-  "name": "parcel",
+  "name": "exsplpre-travel",
   "version": "2.0.0",
   "description": "",
   "homepage": "https://Vita-Zinovieva.github.io/parcel",
   "scripts": {
     "start": "parcel src/*.html",
-    "build": "parcel build src/*.html --public-url /parcel-project-template/"
+    "build": "parcel build src/*.html --public-url /exsplpre-travel"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/goitacademy/parcel-project-template.git"
+    "url": "git+https://github.com/Vita-Zinovieva/exsplpre-travel.git"
   },
   "keywords": [],
   "author": "Vita-Zinovieva ",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/goitacademy/parcel-project-template/issues"
+    "url": "https://https://github.com/Vita-Zinovieva/exsplpre-travel.git/issues"
   },
   "dependencies": {
     "modern-normalize": "^1.1.0"
