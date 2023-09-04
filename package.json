@@ -5,17 +5,17 @@
   "homepage": "https://Vita-Zinovieva.github.io/parcel",
   "scripts": {
     "start": "parcel src/*.html",
-    "build": "parcel build src/*.html --public-url /exsplpre-travel"
+    "build": "parcel build src/*.html --public-url /explore-travel"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Vita-Zinovieva/exsplpre-travel.git"
+    "url": "git+https://github.com/Vita-Zinovieva/explore-travel.git"
   },
   "keywords": [],
   "author": "Vita-Zinovieva ",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Vita-Zinovieva/exsplpre-travel/issues"
+    "url": "https://github.com/Vita-Zinovieva/explore-travel/issues"
   },
   "dependencies": {
     "modern-normalize": "^1.1.0"
