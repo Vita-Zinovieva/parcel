@@ -32,8 +32,9 @@ body{
   flex-direction: column;
 }
 ._container {
-max-width: 1415px;
-box-sizing: content-box;
+  max-width: 1415px;
+  box-sizing: content-box;
+  margin: 0% 3% 0 3%;
 }
 /* .main {
   flex: 1 1 auto;
