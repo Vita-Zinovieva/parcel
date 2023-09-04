@@ -52,7 +52,8 @@
 .social_link {
   display: flex;
   gap: 35px;
-   
+  width: 500px;
+  justify-content: space-around;
 }
 .social_item {
   width: 20px;
