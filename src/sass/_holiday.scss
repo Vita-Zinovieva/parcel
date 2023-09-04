@@ -5,14 +5,13 @@
 }
 .holiday_container{
   height: auto;
-  //margin: 5% auto 5% auto;
-  display: flex;
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
   padding: 5% 3%;
 }
 .holiday_menu-title{
   padding: 10% 10% 0 0;
-  width: 50%;
+ // width: 50%;
  
 }
 .holiday_title {
@@ -34,9 +33,9 @@
   
 }
 .right-img {
-  float: right;
   height: auto;
-  width: 50%;
+  float: right;
+  width: 100%;
  
 }
 .holiday_button {
@@ -47,7 +46,8 @@
   padding-bottom: 45px;
   justify-content:space-between;
   align-items: center;
-  margin-right: 70%;
+  //margin-right: 70%;
+  grid-column: 1/3;
 }
 .holiday-button {
   width: 150px;

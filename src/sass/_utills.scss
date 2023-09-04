@@ -32,13 +32,11 @@ body{
   flex-direction: column;
 }
 ._container {
-  max-width: 1415px;
+  min-width: 1415px;
   box-sizing: content-box;
-  margin: 0% 2% 0 2%;
+  margin: auto;
 }
-/* .main {
-  flex: 1 1 auto;
-} */
+
 svg path {
   stroke:inherit;
   stroke-width:inherit;
